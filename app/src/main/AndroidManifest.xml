@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pregnancy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pregnancy">
+        <activity android:name=".exercise"></activity>
+        <activity android:name=".hospital" />
+        <activity android:name=".baby2" />
+        <activity android:name=".baby1" />
+        <activity android:name=".mom2" />
+        <activity android:name=".common5" />
+        <activity android:name=".common4" />
+        <activity android:name=".common3" />
+        <activity android:name=".common2" />
+        <activity android:name=".mom1" />
+        <activity android:name=".common" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
